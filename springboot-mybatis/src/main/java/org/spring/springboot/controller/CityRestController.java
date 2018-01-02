@@ -55,7 +55,7 @@ public class CityRestController {
     }
 
     /*
-     * 多对多对多查询 返回ResultMap
+     * 多对多对多查询 返回ResultMap test
      * */
     @RequestMapping(value = "api/findUserAndItemsResultMap",method = RequestMethod.GET)
     public List<User> findUserAndItemsResultMap() {
